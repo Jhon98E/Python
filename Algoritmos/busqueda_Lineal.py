@@ -8,7 +8,7 @@ Ejercicio:
 """
 
 
-def buscar_numero(arreglo: list[int], numero: int):
+def busqueda_lineal(arreglo: list[int], numero: int):
     """
     Realiza una búsqueda lineal para encontrar un número en un arreglo.
 
@@ -39,7 +39,7 @@ def buscar_numero(arreglo: list[int], numero: int):
 # arreglo = "Hola Mundo"
 arreglo = [10, 20, 30, 40, 50]
 numero = 30
-resultado = buscar_numero(arreglo, numero)
+resultado = busqueda_lineal(arreglo, numero)
 
 if resultado != ( -1 ):
     print(f"La posicion del numero {numero} es: {resultado}")

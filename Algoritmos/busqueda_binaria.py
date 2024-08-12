@@ -38,4 +38,8 @@ def busqueda_binaria (arreglo: list[int], numero: int) -> int:
 arreglo = [2, 4, 6, 8, 10, 12]
 numero = 8
 resultado = busqueda_binaria(arreglo, numero)
-print(resultado)
+
+if resultado != ( -1 ):
+    print(f"La posicion del numero {numero} es: {resultado}")
+else:
+    print(resultado)

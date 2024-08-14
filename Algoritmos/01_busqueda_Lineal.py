@@ -5,6 +5,19 @@ Ejercicio:
     y devuelva su índice.
     Si el número no está presente,
     devuelve -1.
+
+    Ejemplo en lenguaje natural:
+        Imagina que tienes una caja de juguetes y quieres encontrar tu carrito rojo. 
+        Empiezas a revisar cada juguete uno por uno, empezando por el primero. 
+        Si encuentras el carrito rojo, dices "¡Aquí está!" y te detienes. 
+        Si revisas todos los juguetes y no encuentras el carrito rojo, dices "No está aquí".
+
+        Pistas para la implementación en codigo:
+
+        --> Estructura de datos: Usa una lista para representar el arreglo.
+        --> Bucle: Un bucle for es ideal para recorrer todos los elementos de la lista.
+        --> Condicional: Un if te permitirá comparar elementos y tomar decisiones.
+        --> Función: Define una función para encapsular el algoritmo y hacerla reutilizable.
 """
 
 
